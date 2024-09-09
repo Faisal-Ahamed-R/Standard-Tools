@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusts columns based on screen size */
+      gap: 15px; /* Adds space between images */
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto; /* Centers the gallery */
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px; /* Rounded corners */
+      transition: transform 0.3s ease; /* Smooth hover effect */
+    }
+
+    .gallery img:hover {
+      transform: scale(1.7); /* Slight zoom on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Image Gallery</h1>
+
+  <div class="gallery">
+    <img src="card 2.png" alt="Image 1">
+    <img src="front 2.png" alt="Image 2">
+    <img src="glass door.jpg" alt="Image 3">
+    <img src="bosch.jpg" alt="Image 4">
+    <img src="betali.jpg" alt="Image 5">
+    <img src="dongcheng.jpg" alt="Image 6">
+  </div>
+</body>
+</html>

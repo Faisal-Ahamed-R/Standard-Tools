@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STANDARD TOOLS</title>
+  <link rel="icon" href="STD.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightblue; /* Background color for the entire page */
+    }
+
+    .header-container {
+      position: relative;
+      padding: 20px;
+    }
+
+    .header-container img {
+      position: absolute;
+      left: 20px; /* Adjust the space from the left edge */
+      top: 20px; /* Adjust the space from the top edge */
+      max-width: 150px; /* Adjust the image size */
+    }
+
+    .header-container h1 {
+      margin: 0; /* Removes default margins */
+      text-align: center; /* Center-aligns the h1 heading */
+    }
+
+    h2 {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusts columns based on screen size */
+      gap: 15px; /* Adds space between images */
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto; /* Centers the gallery */
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px; /* Rounded corners */
+      transition: transform 0.3s ease; /* Smooth hover effect */
+    }
+
+    .gallery img:hover {
+      transform: scale(1.7); /* Slight zoom on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="header-container">
+    <img src="STD.png" alt="Image">
+    <h1>Standard Tools</h1>
+  </div>
+
+  <center><h2>A First Class Power Tools Shop</h2></center>
+  <center><h2><a href="index.html">Home</a> | <a href="price.html">Price</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="Gallery.html">Gallery</a></h2></center>
+  <hr>
+
+  <h1>Simple Image Gallery</h1>
+
+  <div class="gallery">
+    <img src="card 2.png" alt="Image 1">
+    <img src="front 2.png" alt="Image 2">
+    <img src="glass door.jpg" alt="Image 3">
+    <img src="bosch.jpg" alt="Image 4">
+    <img src="betali.jpg" alt="Image 5">
+    <img src="dongcheng.jpg" alt="Image 6">
+  </div>
+</body>
+</html>
